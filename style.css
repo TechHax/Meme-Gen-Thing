@@ -1,0 +1,110 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+/* BODY */
+body {
+  background: #7b4397;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 62%;
+  margin: 0;
+  margin-top: 40px;
+  font-family: "Permanent Marker", arial, serif;
+}
+
+/* HEADINGS */
+h1 {
+  font-size: 4em;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h3 {
+  margin: 10px;
+}
+
+p {
+  font-size: 3.2em;
+  text-align: center;
+}
+
+#intro {
+  margin-top: 0;
+}
+
+/* CONTAINER DIV */
+.container {
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 15px;
+  overflow: auto;
+}
+
+.meme-div {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.meme-div img {
+  max-width: 100%;
+}
+
+/* BUTTONS */
+.buttons {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.button {
+  background: #7b4397;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+-webkit-user-select: none; /* Safari */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+  color: white;
+  width: 50px;
+  text-align: center;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 5em;
+  font-family: arial;
+  cursor: pointer;
+}
+
+.left-arrow {
+  float: left;
+}
+
+.right-arrow {
+  float: right;
+}
+
+/* REDDIT  */
+.reddit {
+  clear: both;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 3.2em;
+}
+
+.reddit-image {
+  width: 180px;
+  cursor: pointer;
+}
+
+/* FOOTNOTE */
+.footnote {
+  color: white;
+  font-size: 20px;
+}
+
+/* DISPLAY NONE CLASS */
+.none {
+  display: none;
+}
